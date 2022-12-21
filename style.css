@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* body */
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header{
+    background-color: #1f2937;
+    padding: 0px 100px 100px 150px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nav-left h2{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color:#bfc3c9;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.link:hover{
+    color: white;
+}
+.header-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-main-left h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.header-main-left p{
+    color: #bfc3c9;
+    font-size: 18px;
+}
+.header-main-left button{
+    color: white;
+    background-color: #3b82f6;
+    font-size: 18px;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.header-main-right img{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+/* information container */
+.inf-container{
+    padding:50px 0px ;
+}
+.inf-container h1{
+    text-align: center;
+}
+.inf-cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+.card img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.card p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* quote container */
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 50px 0px;
+}
+.quote-details{
+    width: 70%;
+    margin: auto;
+}
+.quote-container p{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight:100;
+    font-style:italic;
+}
+.quote-container h2{
+    text-align: end;
+}
+
+
+/* advertise section */
+.add-container{
+    padding: 50px 0px;
+}
+.add{
+    width: 75%;
+    background-color: #3b82f6;
+    height: 125px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.add h2{
+    color: white;
+    margin: 0%;
+}
+.add p{
+    color: #dae1ec;
+    font-size: 18px;
+    margin: 0%;
+}
+.add-right button{
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    padding: 30px 0px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
